@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+#########################
+# RUN ubuntu server 22.04
+ng serve --host 0.0.0.0 --proxy-config proxy.conf.json
+- node  v18.14.2
+- npm 9.5.0
+
+update node  for ubuntu 22.04
+
+sudo npm install -g n
+sudo n lts
+
